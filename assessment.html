@@ -4,8 +4,135 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>HTML Assessment</title>
+
+
 </head>
 <body>
+<div> <!-- text section-->
+<h2>TEXT</h2>
+
+	<p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+	  <blockquote>
+	  <p><em><strong>Integer</strong> auctor est ac fringilla e uismod. Donec la oreet urna vel diam blandit venenatis. Nam fermetum turpis a mauris condimentum, vitae faucibus leo commodo.</em></p>
+      </blockquote>
+	<p><strong>Vestibulum</strong> elit nisi, posuere ut hendrerit a, molestie eu leo. Donec sit amet ul lamcorper turpis. Mauris eu tellus blandit turpis fermentum dapibus eget sed ex. Vivamus auctor in velit ac suscipit. In hav habitasse platea dictumst.</p>
+	<br>
+</div>
+
+<div> <!-- table section-->
+<h2>TABLE</h2>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="8"scope="row">Scores by quarter</th>	
+		</tr>
+		<tr>
+			<th rowspan="2"scope="col"><strong>Team Name</strong></th>
+			<th colspan="2"scope="col"><strong>First Half</strong></th>
+			<th colspan="2"scope="col"><strong>Second Half</strong></th>
+			<th rowspan="2"scope="col"><strong>Final</strong></th>
+		</tr>
+		<tr>
+			<th scope="col"><strong>Q1</strong></th>
+			<th scope="col"><strong>Q2</strong></th>
+			<th scope="col"><strong>Q3</strong></th>
+			<th scope="col"><strong>Q4</strong></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>OKC Thunder</td>
+			<td>28</td>
+			<td>32</td>
+			<td>36</td>
+			<td>20</td>
+			<td>116</td>
+		</tr>
+		<tr>
+			<td>Houston Rockets</td>
+			<td>33</td>
+			<td>29</td>
+			<td>29</td>
+			<td>28</td>
+			<td>119</td>
+		</tr>
+		<tfoot>
+			<td><strong>Total</strong></td>
+			<td><strong>61</strong></td>
+			<td><strong>61</strong></td>
+			<td><strong>65</strong></td>
+			<td><strong>48</strong></td>
+			<td><strong>235</strong></td>
+		</tfoot>
+	</tbody>
+</table>
+</div>
+
+<div> <!-- list team section-->
+<h2>LIST</h2>
+
+<ul>
+	<li><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Oklahoma_City_Thunder.svg/60px-Oklahoma_City_Thunder.svg.png" alt="OKC Thunder logo"><a href="https://www.nba.com/thunder/"><br>Oklahoma City Thunder</a></li>
+	<ul>
+		<li>Coach: Mark Daigneault</li>
+		<li>Starting Five:</li>
+		<ol>
+			<li>Shai Gilgeous-Alexander</li>
+			<li>Cason Wallace</li>
+			<li>Luguentz Dort</li>	
+			<li>Jalen Williams</li>
+			<li>Isaiah Hartenstein</li>
+		</ol>
+
+	</ul>
+
+</ul>
+
+<ul>
+	<li><img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Houston_Rockets.svg/50px-Houston_Rockets.svg.png"alt="Houston Rockets logo"><a href="https://www.nba.com/rockets/"><br>Houston Rockets</a></li>
+	<ul>
+		<li>Coach: Ime Udoka</li>
+		<li>Starting Five:</li>
+		<ol>
+			<li>Fred VanVleet</li>
+			<li>Jalen Green</li>
+			<li>Dillon Brooks</li>	
+			<li>Jabari Smith Jr.</li>
+			<li>Alperen Sengun</li>
+		</ol>
+
+	</ul>
+
+</ul>
+</div>
+
+<div> <!-- form section-->
+<h2>FORM</h2>
+
+<form>
+	First: <input type="text" name="first name"/> Last: <input type="text" name="last name"/> <br>
+	Favorite Sport: <br>
+		<select>
+			<option value="Basketball">Basketball</option>
+			<option value="Baseball">Baseball</option>
+			<option value="Soccer">Soccer</option>
+			<option value="Football">Football</option>
+		</select> <br>
+	I have: 
+		<input type="checkbox" name="Experience" value="Attended"> Attended
+		<input type="checkbox" name="Experience" value="Played"> Played
+		<input type="checkbox" name="Experience" value="Coached"> Coached
+		<input type="checkbox" name="Experience" value="Bet on"> Bet on<br>
+		this sport.<br>
+	For this sport I prefer the: 
+		<input type="radio" name="Preference" value="Amateur">Amateur
+		<input type="radio" name="Preference" value="College">College
+		<input type="radio" name="Preference" value="Professional">Professional<br> 
+	<input type="submit" name="button" value="Submit Query" />
+
+</form>
+</div>
 
 </body>
 </html>
